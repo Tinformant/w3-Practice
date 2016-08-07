@@ -1,0 +1,72 @@
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+}
+
+.square {
+	width: 30%;
+	background-color: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15% ; /*How much to round the squares*/
+	transition: background 0.6s; /*This is not built in every single property*/
+	-webkit-transition: background 0.6s; /*For Safari support*/
+	-moz-transition: background 0.6s; /*For Firefox supoort*/
+}
+
+#container {
+	margin: 20px auto; /*20px on top and bottom and auto for left and right*/
+	max-width: 600px;
+}
+
+h1 {
+	text-align: center;
+	line-height: 1.1; /*space between the lines*/
+	color: white;s
+	background-color: steelblue;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+#colorDisplay {
+	font-size: 200%;
+}
+
+
+#stripe {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+.selected {
+	backgrond-color: blue;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%; /* Buttons take 100% of the containers */
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 2.0s; /* Transitions between font and color changes; how long does it take to change */
+	outline: none; /* Turning off the outline around button*/
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+button:hover {
+	color: white;
+	background-color: steelblue;
+}
